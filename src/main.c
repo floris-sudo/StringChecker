@@ -2,6 +2,8 @@
 
 int main(int varc, char *varh[]) {
 
- return 0;
+    printf("Hello World");
+
+    return 0;
 
 }

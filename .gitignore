@@ -13,3 +13,7 @@ _deps
 *.filters
 *.vcxproj.filters
 build/
+*.exe
+*.ilk
+*.pdb
+.vscode/
