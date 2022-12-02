@@ -15,12 +15,12 @@ void compareStrings(char* String1[], char* String2[]) {
     for (int c = 0; c < sizeof(Characters); c++) {
         if (Characters[c][0] != Characters[c][1]) {
             printf("The Strings are not the same!!\n\n");
-            printf("%s\n\n%s", String1, String2);
+            printf("%s\n\n%s", *String1, *String2);
             return;
         }
     }
     printf("The Strings are the same!!");
-    printf("%s\n\n%s", String1, String2);
+    printf("%s\n\n%s", *String1, *String2);
     return;
 
 
