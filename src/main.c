@@ -2,8 +2,13 @@
 
 int main(int argc, char *argv[]) {
 
-    printf("Hello World");
+    if (argc == 3) {
 
-    return 0;
+        return 0;
+    }
+    else {
+        printf("\n\nThis tool takes 2 arguments!\n\nYou provided %d arguments!\n\nPlease try again.\n\n", argc -1);
+        return -1;
+    }
 
 }
