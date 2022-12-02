@@ -12,3 +12,4 @@ _deps
 *.vcxproj
 *.filters
 *.vcxproj.filters
+.\build
